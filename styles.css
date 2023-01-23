@@ -1,0 +1,43 @@
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 25px;
+  color: #000;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(232, 224, 224, 0.803);
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 40px;
+}
+.date {
+  opacity: 0.6;
+}
+.time h2 {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+}

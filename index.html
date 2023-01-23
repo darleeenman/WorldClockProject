@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.js"></script>
 
@@ -13,7 +20,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Los Angeles</h1>
+      <h1>World Clock 🕰</h1>
       <select id="city">
         <option value="">Select a city</option>
         <option value="">Los Angeles</option>
@@ -21,14 +28,23 @@
         <option value="">Seoul</option>
         <option value="">Hawaii</option>
       </select>
-    </div>
 
-    <div class="city" id="los-angeles">
-      <div>
-        <h2>Los Angeles</h2>
-        <div class="date"></div>
+      <div class="city" id="los-angeles">
+        <div>
+          <h2>Los Angeles</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
       </div>
-      <div class="time"></div>
+
+      <div class="city" id="tokyo">
+        <div>
+          <h2>Tokyo</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
+      </div>
+      
     </div>
 
     <footer>
@@ -38,6 +54,6 @@
       >
     </footer>
 
-    <script></script>
+    <script src="index.js"></script>
   </body>
 </html>
