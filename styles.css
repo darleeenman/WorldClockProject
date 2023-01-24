@@ -15,20 +15,32 @@ body {
 .city {
   display: flex;
   justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px dashed rgba(87, 84, 84, 0.2);
 }
 
 .time {
   font-size: 40px;
 }
+
 .date {
   opacity: 0.6;
 }
+
 .time h2 {
   margin: 0;
 }
 
+div {
+  display: block;
+}
+
 h1 {
   text-align: center;
+}
+
+h2 {
+  margin-bottom: 0;
 }
 
 select {
